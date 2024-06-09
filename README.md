@@ -159,7 +159,7 @@ Content-Type: application/json
 #### Creating an Employee:
 
 ```http request
-POST /api/v1/employees
+POST /api/v1/employee
 Content-Type: application/json
 
 {
@@ -175,7 +175,7 @@ Content-Type: application/json
 #### Updating an Employee:
 
 ```http request
-PUT /api/v1/employees/1
+PUT /api/v1/employee/1
 Content-Type: application/json
 
 {
@@ -197,5 +197,5 @@ DELETE /api/v1/department/1
 #### Deleting an Employee:
 
 ```http request
-DELETE /api/v1/employees/1
+DELETE /api/v1/employee/1
 ```
